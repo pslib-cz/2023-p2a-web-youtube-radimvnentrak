@@ -1,0 +1,54 @@
+/* DOKUMENT STYLŮ K ÚPRAVĚ */
+
+.main {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+
+}
+
+.ytv {
+    display: flex;
+    flex-direction: column;
+/*align-content: center;*/
+
+
+}
+.ytv__bottom {
+    display: flex;
+align-content: baseline;
+    flex-direction: column;
+    
+
+}
+.ytv__left {
+    display: flex;
+
+justify-content: baseline;
+align-items: center;
+}
+.ytv__right {
+    display: flex;
+justify-content: end;
+
+
+}
+.profile {
+    display: flex;
+    align-items: center;
+    /*justify-content:space-around;*/
+
+}
+.profile__text {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+.icon {
+    display: flex;
+    align-items: baseline;
+}
+.btn--flex {
+    display: flex;
+    align-items: center;
+}
